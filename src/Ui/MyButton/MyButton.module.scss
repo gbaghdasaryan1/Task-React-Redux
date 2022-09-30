@@ -1,0 +1,23 @@
+@import "../../variables.scss";
+
+.MyButton {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	justify-content: space-evenly;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 8px;
+	font-size: 18px;
+}
+
+.primary {
+	background-color: $black;
+	color: white;
+	// font-weight: bold;
+}
+
+.outline {
+	background-color: white;
+	color: $black;
+}

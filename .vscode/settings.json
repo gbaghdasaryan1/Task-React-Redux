@@ -1,0 +1,6 @@
+{
+	"diffEditor.wordWrap": "on",
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.accessibilitySupport": "on",
+	"html.format.wrapAttributes": "aligned-multiple"
+}

@@ -1,0 +1,61 @@
+@import '../../variables.scss';
+
+.MenuContent {
+	width: 250px;
+	height: 100vh;
+	overflow-y: scroll;
+	background-color: $black;
+
+	& nav {
+		display: flex;
+		flex-direction: column;
+
+
+		>a {
+			color: $gray;
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			text-decoration: none;
+			padding: 10px 15px;
+			margin-top: 20px;
+
+			&:hover {
+				background-color: #393A42;
+			}
+
+			&:last-child {
+				gap: 0;
+			}
+		}
+	}
+}
+
+
+.Avatar {
+	width: max-content;
+	display: flex;
+	margin: 0 auto;
+	margin-top: 50px;
+	justify-content: center;
+	position: relative;
+}
+
+.EditBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background-color: whitesmoke;
+	position: absolute;
+	bottom: -10px;
+	right: 0;
+}
+
+
+.CloseMenu {
+	margin-top: 15px;
+	padding-right: 10px;
+	display: flex;
+	justify-content: flex-end;
+}

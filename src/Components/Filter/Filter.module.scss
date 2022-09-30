@@ -1,0 +1,14 @@
+.Filter {
+
+
+	&>button {
+		width: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		border: none;
+		border-radius: 3px;
+		font-size: 18px;
+		font-weight: 400;
+	}
+}
